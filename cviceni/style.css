@@ -7,6 +7,57 @@ html {
 *::after {
     box-sizing: inherit;
 }
+body{
+  max-width: 50rem;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+
+header{
+  background-image:url(https://picsum.photos/1200/300);
+  min-height: 300px;
+  padding: 2rem 3rem;
+  text-align: center
+}
+
+nav ul{
+padding-left: 0;
+}
+
+nav li{
+  display: inline;
+}
+
+
+h1{
+  font-size: 3rem;
+  text-align: center;
+}
+
+main{
+  padding: 1rem;
+  background-color: hsla(160, 50%, 50%, 1);
+}
+
+main > img{
+  max-width: 100%;
+  height: auto;
+}
+
+}
+section{
+  padding: 1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  background-color: hsla(160, 50%, 50%, 1);
+  border-bottom: 1px dashed rgb(43, 71, 62)
+}
+
+section img{
+max-width:170px;
+height: auto;
+}
 
 /*
     background image: https://picsum.photos/1200/300
